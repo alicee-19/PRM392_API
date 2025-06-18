@@ -11,7 +11,7 @@ import retrofit2.http.PUT;
 import retrofit2.http.Path;
 
 public interface StudentService {
-    String STUDENTS = "/api/Students"; // API endpoints
+    String STUDENTS = "/api/Students/Student"; // API endpoints
     @GET(STUDENTS)
     Call<Student[]> getAllStudents();
 
